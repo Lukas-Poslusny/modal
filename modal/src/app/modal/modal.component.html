@@ -1,0 +1,14 @@
+<div ng>
+    <button class="btn1" (click)="clickedButton()">Button</button>
+    
+    <div class="isTrue" *ngIf="showWindow === true">
+        <div class="hi">
+            <button class="btn2" (click)="clickedButton()">X</button>
+            <p>This is a pop up window.</p>
+        </div>
+    </div>
+
+    <div class="isFalse" *ngIf="showWindow === false">
+
+    </div>
+</div>
